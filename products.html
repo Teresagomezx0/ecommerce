@@ -9,15 +9,47 @@
     <script src="js/script.js" defer></script>
   </head>
   <body>
+    <!--HEADER-->
+    <header>
+      <a href="index.html">
+        <img src="assets/logo1.png" alt="TrueFocus Logo" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Glasses</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
       <section class="products">
         <div class="container">
-          <h1>Glasses</h1>
+          <h1 class="subsec">Glasses</h1>
           <!-- List gets filled by js-->
           <ul id="productsList" class="cards"></ul>
           <p id="productsMsg" class="sr-only"></p>
         </div>
       </section>
     </main>
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container">
+        <small>© <span id="2023"></span>TrueFocus</small>
+        <div class="social">
+          <a class="insta" href="fake-insta">
+            <img src="assets/insta.png" alt="instagram"
+          /></a>
+          <a class="facebook" href="fake-facebook"
+            ><img src="assets/facebook.png" alt="facebook"
+          /></a>
+          <a class="x" href="fake-twitter"
+            ><img src="assets/x.png" alt="x"
+          /></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

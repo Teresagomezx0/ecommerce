@@ -1,21 +1,21 @@
 [
   {
     "id": "glass1",
-    "name": "Optics",
+    "name": "Optics Classic",
     "price": 176,
     "image": "https://ik.imagekit.io/image324/glass1-rb.avif?updatedAt=1754983105611",
     "description": "timeless classic, Ray-Ban signature."
   },
   {
     "id": "glass2",
-    "name": "Classic",
+    "name": "Sweet Dol",
     "price": 422,
     "image": "https://ik.imagekit.io/image324/glass2-dolce.avif?updatedAt=1754983264927",
     "description": "Dolce & Gabanna black frame with gold accent."
   },
   {
     "id": "glass3",
-    "name": "Optics 1.2",
+    "name": "At Sea",
     "price": 237,
     "image": "https://ik.imagekit.io/image324/glass3-rb.avif?updatedAt=1754983142506",
     "description": "part of Ray-Ban Optics collection"
@@ -29,21 +29,21 @@
   },
   {
     "id": "glass5",
-    "name": "ar1",
+    "name": "On Air",
     "price": 138,
     "image": "https://ik.imagekit.io/image324/glass5-armani.avif?updatedAt=1754983162694",
     "description": "one fits all armani frames"
   },
   {
     "id": "glass6",
-    "name": "tf1",
+    "name": "Baby Blue",
     "price": 398,
     "image": "https://ik.imagekit.io/image324/glass6-tiff.avif?updatedAt=1754983220433",
     "description": "timeless Tiffany frames"
   },
   {
     "id": "glass7",
-    "name": "coach",
+    "name": "Forever Yours",
     "price": 219,
     "image": "https://ik.imagekit.io/image324/glass7-coach.avif?updatedAt=1754983220345",
     "description": "newest Coach frames"
@@ -57,7 +57,7 @@
   },
   {
     "id": "glass9",
-    "name": "rf1",
+    "name": "Intelligence",
     "price": 201,
     "image": "https://ik.imagekit.io/image324/glass9-ralph.avif?updatedAt=1754983220442",
     "description": "Ralph Lauren's Owl of the hour frames"
@@ -71,14 +71,14 @@
   },
   {
     "id": "glass11",
-    "name": "jc1",
+    "name": "Champagne Toast",
     "price": 287,
     "image": "https://ik.imagekit.io/image324/glass11-jimmy.avif?updatedAt=1754983220460",
     "description": "Jimmy Choo clear coral frames"
   },
   {
     "id": "glass12",
-    "name": "tb1",
+    "name": "Pure Gold",
     "price": 247,
     "image": "https://ik.imagekit.io/image324/glass12-tory.avif?updatedAt=1754983220497",
     "description": "modern Tory Burch with gold accent frames"

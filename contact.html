@@ -6,6 +6,41 @@
     <title>TrueFocus.com</title>
     <link rel="stylesheet" href="css/shared.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <script src="js/script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section class="contact">
+        <div class="container">
+          <h1 class="contact-h1">Contact Us</h1>
+
+          <!-- Skip link target-->
+          <form id="contactForm" novalidate>
+            <label for="name"
+              >Name
+              <input type="text" id="name" name="name" required />
+            </label>
+
+            <label for="Email">
+              Email
+              <input type="email" id="email" name="email" required />
+            </label>
+
+            <label for="Comment">
+              Comments/Questions?
+              <textarea
+                name="Comment"
+                id="comment"
+                rows="5"
+                required
+              ></textarea>
+            </label>
+
+            <button class="btn" type="submit">Send</button>
+            <p id="forMsg"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

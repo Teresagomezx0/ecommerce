@@ -1,9 +1,23 @@
+/* FOOTER POSITION CHANGE */
+.footer {
+  position: relative;
+}
+
+.subsec {
+  font-size: 2.2rem;
+}
+
+.subsec:hover {
+  color: #dd22b1;
+}
+
 .cards {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  gap: 16ps;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .card {
@@ -11,12 +25,15 @@
   border-radius: 12px;
   overflow: hidden;
   background: #fff;
+  flex: 1 1 240px;
+  max-width: 360px;
 }
 
 .card img {
   width: 100%;
+  aspect-ratio: 3/2;
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
   background: #f7f7f7;
   display: block;
 }
