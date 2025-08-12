@@ -1,0 +1,86 @@
+[
+  {
+    "id": "glass1",
+    "name": "Optics",
+    "price": 176,
+    "image": "https://ik.imagekit.io/image324/glass1-rb.avif?updatedAt=1754983105611",
+    "description": "timeless classic, Ray-Ban signature."
+  },
+  {
+    "id": "glass2",
+    "name": "Classic",
+    "price": 422,
+    "image": "https://ik.imagekit.io/image324/glass2-dolce.avif?updatedAt=1754983264927",
+    "description": "Dolce & Gabanna black frame with gold accent."
+  },
+  {
+    "id": "glass3",
+    "name": "Optics 1.2",
+    "price": 237,
+    "image": "https://ik.imagekit.io/image324/glass3-rb.avif?updatedAt=1754983142506",
+    "description": "part of Ray-Ban Optics collection"
+  },
+  {
+    "id": "glass4",
+    "name": "Crested Butte",
+    "price": 164,
+    "image": "https://ik.imagekit.io/image324/glass4-mikecors.avif?updatedAt=1754983153981",
+    "description": "Michael Kors dainty frames"
+  },
+  {
+    "id": "glass5",
+    "name": "ar1",
+    "price": 138,
+    "image": "https://ik.imagekit.io/image324/glass5-armani.avif?updatedAt=1754983162694",
+    "description": "one fits all armani frames"
+  },
+  {
+    "id": "glass6",
+    "name": "tf1",
+    "price": 398,
+    "image": "https://ik.imagekit.io/image324/glass6-tiff.avif?updatedAt=1754983220433",
+    "description": "timeless Tiffany frames"
+  },
+  {
+    "id": "glass7",
+    "name": "coach",
+    "price": 219,
+    "image": "https://ik.imagekit.io/image324/glass7-coach.avif?updatedAt=1754983220345",
+    "description": "newest Coach frames"
+  },
+  {
+    "id": "glass8",
+    "name": "Skylar Optics",
+    "price": 210,
+    "image": "https://ik.imagekit.io/image324/glass8-rb.avif?updatedAt=1754983220546",
+    "description": "part of Ray-Bans' Skylar Optics collection"
+  },
+  {
+    "id": "glass9",
+    "name": "rf1",
+    "price": 201,
+    "image": "https://ik.imagekit.io/image324/glass9-ralph.avif?updatedAt=1754983220442",
+    "description": "Ralph Lauren's Owl of the hour frames"
+  },
+  {
+    "id": "glass10",
+    "name": "Caroline",
+    "price": 296,
+    "image": "https://ik.imagekit.io/image324/glass10-burb.avif?updatedAt=1754983220443",
+    "description": "Burberry's Classic Caroline Frame"
+  },
+  {
+    "id": "glass11",
+    "name": "jc1",
+    "price": 287,
+    "image": "https://ik.imagekit.io/image324/glass11-jimmy.avif?updatedAt=1754983220460",
+    "description": "Jimmy Choo clear coral frames"
+  },
+  {
+    "id": "glass12",
+    "name": "tb1",
+    "price": 247,
+    "image": "https://ik.imagekit.io/image324/glass12-tory.avif?updatedAt=1754983220497",
+    "description": "modern Tory Burch with gold accent frames"
+  }
+]
