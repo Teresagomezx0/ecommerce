@@ -1,47 +1,46 @@
-console.log("[contact.js] file loaded");
+const form = document.getElementById("contactForm");
+const name = document.getElementById("name");
+const email = document.getElementById("email");
+const comment = document.getElementById("comment");
 
-// CONTACT VALIDATION
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("[contact.js] DOMContentLoaded");
-  const form = document.getElementById("form");
-  if (!form) return;
-  console.log("[contact.js] no contact form exists");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
 
-  const nameEl = document.getElementById("name");
-  const emailEl = document.getElementById("email");
-  const commentEl = document.getElementById("comment");
-  const msg = document.getElementById("formMsg");
-  console.log("[contact.js] inputs present?", { name, email, comment });
-
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    console.log("[contact.js] submit fired");
-
-    const name = nameEl.value.trim();
-    const email = email.value.trim();
-    const comment = commentEl.value.trim();
-
-    if (!name) {
-      msg.textContent = "Please Enter Your Name!";
-      return;
-    }
-    if (!email) {
-      msg.textContent = "Please Enter Your Email!";
-      return;
-    }
-    if (!comment) {
-      msg.textContent = "Please Enter Your Comment/Question";
-      return;
-    }
-
-    msg.textContent = "Thanks! We will Reach Out Soon!";
-    form.reset();
-
-    // if (!name || !email || !comment) {
-    //   alert("Please fill out all the fields.");
-    //   return;
-    // }
-    // alert("Thanks! We'll Get in Contact Soon!");
-    // form.reset();
-  });
+  validate();
 });
+
+const setError = (element, message) => {
+  const input = element.parentElement;
+  const errorDisplay = input.querySelector(".error");
+
+  errorDisplay.innerText = message;
+  input.classList.add("error");
+  input.classList.remove("success");
+};
+
+const setSuccess = (element) => {
+  const input = element.parentElement;
+  const errorDisplay = input.querySelector(".error");
+
+  errorDisplay.innerText = message;
+  input.classList.add("success");
+  input.classList.remove("error");
+};
+
+const validate = () => {
+  const nameVal = name.value.trim();
+  const emailVal = email.value.trim();
+  const comment = comment.value.trim();
+
+  if (name === "") {
+    setError(name, "Please Enter Your Name!");
+  } else {
+    setSuccess(name);
+  }
+
+  if (emailVal === "") {
+    setError(email, "Please Enter a Valid Email");
+  } else {
+    setSuccess(email);
+  }
+};

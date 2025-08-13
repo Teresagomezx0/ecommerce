@@ -1,11 +1,11 @@
-body .contact main {
+/* body .contact main {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 24px;
-}
+} */
 
-.contact form {
+/* form {
   background: white;
   padding: 20px;
   border-radius: 8px;
@@ -13,9 +13,9 @@ body .contact main {
   display: grid;
   gap: 12px;
   width: 100%;
-}
+} */
 
-.contact label {
+label {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -42,6 +42,29 @@ body .contact main {
   justify-content: end;
   margin-top: 20px;
 }
-#formMsg {
-  min-height: 1.2rem;
+.styleform.sucess input {
+  border-color: #09c372;
 }
+
+.styleform.error input {
+  border-color: #ff3860;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  /* margin: 20vh auto 0 auto; */
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.styleform {
+  display: flex;
+  flex-direction: column;
+}
+/* #formMsg {
+  min-height: 1.2rem;
+} */
