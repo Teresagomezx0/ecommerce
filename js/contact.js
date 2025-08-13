@@ -27,20 +27,36 @@ const setSuccess = (element) => {
   input.classList.remove("error");
 };
 
-const validate = () => {
+const isValidEmail = (email) => {
+  const re =
+    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
+};
+
+const validateInputs = () => {
   const nameVal = name.value.trim();
   const emailVal = email.value.trim();
-  const comment = comment.value.trim();
+  const commentVal = comment.value.trim();
 
-  if (name === "") {
-    setError(name, "Please Enter Your Name!");
+  if (nameVal === "") {
+    setError(name, "Please Enter Your Name");
   } else {
-    setSuccess(name);
+    setSuccess(username);
   }
 
   if (emailVal === "") {
-    setError(email, "Please Enter a Valid Email");
+    setError(email, "Please Enter a Valid Email!");
+  } else if (!isValidEmail(emailVal)) {
+    setError(email, "Please Enter a Valid Email!");
   } else {
     setSuccess(email);
+  }
+
+  if (commentVal === "") {
+    setError(comment, "Please Enter your Comments or Questions!");
+    // } else if (commentVal.length < 3 ) {
+    //     setError(comment, 'Please Enter ')
+  } else {
+    setSuccess(password);
   }
 };
