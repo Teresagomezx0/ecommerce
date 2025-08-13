@@ -6,16 +6,28 @@
     <title>TrueFocus.com</title>
     <link rel="stylesheet" href="css/shared.css" />
     <link rel="stylesheet" href="css/contact.css" />
-    <script src="js/script.js" defer></script>
+    <script src="js/contact.js" defer></script>
   </head>
-  <body>
+  <body class="contact">
+    <header>
+      <a href="index.html">
+        <img src="assets/logo1.png" alt="TrueFocus Logo" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Glasses</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
       <section class="contact">
         <div class="container">
-          <h1 class="contact-h1">Contact Us</h1>
+          <h1>Contact Us</h1>
 
-          <!-- Skip link target-->
-          <form id="contactForm" novalidate>
+          <form id="form" novalidate>
             <label for="name"
               >Name
               <input type="text" id="name" name="name" required />
@@ -36,11 +48,30 @@
               ></textarea>
             </label>
 
-            <button class="btn" type="submit">Send</button>
-            <p id="forMsg"></p>
+            <div class="btn-container">
+              <button class="contact-btn" type="submit">Send</button>
+            </div>
+            <p id="formMsg"></p>
           </form>
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        <small>© <span id="2023"></span>TrueFocus</small>
+        <div class="social">
+          <a class="insta" href="fake-insta">
+            <img src="assets/insta.png" alt="instagram"
+          /></a>
+          <a class="facebook" href="fake-facebook"
+            ><img src="assets/facebook.png" alt="facebook"
+          /></a>
+          <a class="x" href="fake-twitter"
+            ><img src="assets/x.png" alt="x"
+          /></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
